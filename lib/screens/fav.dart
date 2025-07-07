@@ -25,7 +25,7 @@ class _favScreenState extends State<favScreen> {
           ),
           Expanded(
             child: cartProvider.fav.isEmpty
-                ? const Center(child: Text("Nothingdg favourites"))
+                ? const Center(child: Text("Nothing favourites no show"))
                 : ListView.builder(
                     itemCount: cartProvider.fav.length,
                     itemBuilder: (context, index) {
